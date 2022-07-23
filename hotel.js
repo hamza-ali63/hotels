@@ -24,4 +24,4 @@ app.get("/api/v1/hotels/one/:_id", (req, res) => getHotelById(req, res, db));
 
 app.delete("/api/v1/hotels/:_id", (req, res) => deleteById(req, res, db));
 
-app.listen(3025);
+app.listen(3024);
